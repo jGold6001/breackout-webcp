@@ -1,0 +1,74 @@
+body{
+    font-family: "Comic Sans MS";
+}
+
+main{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#testForm{
+    padding: 15px;
+}
+
+#result{
+    border: 2px solid black;
+    padding: 13px;
+}
+
+#canvasId{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+#result_view{
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Comic Sans MS";
+}
+
+.link_reff{
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+#cancel{
+    display: none; 
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.error {
+  color: red;
+}
+
+.ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close {
+    display: none;
+}
+
+
+.loader {
+  border: 8px solid #DCDCDC;
+  border-radius: 50%;
+  border-top: 8px solid gray;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

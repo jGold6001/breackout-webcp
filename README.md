@@ -8,14 +8,22 @@
 
 **Back end** : БД для хранения данных **MySQL** и **PHP** фреймворк **CodeIgniter,** для выполнения **CRUD** операций.
 
-# 
+##
 **Технологии и языки программирования**
 
-- Html/CSS
-
+- Html/CSS(Bootstrap)
 - JavaScript(phaser framework, jQuery),
 - PHP(CodeIgniter framework);
 - MySQL
 
-# 
+## 
 **Screenshots**
+![alt text](screenshots/1.png "Авторизация")
+# 
+![alt text](screenshots/2.png "Старт игры")
+# 
+![alt text](screenshots/3.png "Процес")
+# 
+![alt text](screenshots/4.png "Конец игры - загрузка таблицы результатов")
+# 
+![alt text](screenshots/5.png "Конец игры - вывод таблицы результатов")
